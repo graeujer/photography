@@ -122,6 +122,12 @@ html {
     background-size: cover;
   }
 }
+@media (max-width: 36em) {
+  .header::before {
+    background-size: cover;
+    bottom: -5rem;
+  }
+}
 
 .header::after {
   height: 33vw;
@@ -163,11 +169,6 @@ html {
   animation-timing-function: linear;
   animation-fill-mode: both;
 }
-@media (max-width: 36em) {
-  .header__heading-main {
-    font-size: 5rem;
-  }
-}
 @media (max-width: 62em) {
   .header__heading-main {
     font-size: 4rem;
@@ -176,6 +177,12 @@ html {
 @media (max-width: 48em) {
   .header__heading-main {
     font-size: 3rem;
+  }
+}
+@media (max-width: 36em) {
+  .header__heading-main {
+    font-size: 2rem;
+    padding-top: 0;
   }
 }
 
